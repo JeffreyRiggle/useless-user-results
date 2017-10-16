@@ -45,3 +45,33 @@ In order to conduct the test follow these steps.
 |Angular  |274.5ms  |
 |Aurelia  |171.1ms  |
 |React    |147.5ms  |
+
+# Additional Details
+
+## File Size
+
+### Angular
+
+|File                   |size                   |
+|-----------------------|-----------------------|
+|index.html             |1kb                    |
+|inline.bundle.js       |6kb                    |
+|inline.bundle.js.map   |6kb                    |
+|main.bundle.js         |25kb                   |
+|main.bundle.map.js     |24kb                   |
+|polyfills.bundle.js    |212kb                  |
+|polyfills.bundle.js.map|253kb                  |
+|styles.bundle.js       |12kb                   |
+|styles.bundle.js.map   |15kb                   |
+|vendor.bundle.js       |2199kb                 |
+|vendor.bundle.js.map   |2748kb                 |
+
+### Aurelia
+
+|File                   |size                   |
+|-----------------------|-----------------------|
+
+### React
+
+|File                   |size                   |
+|-----------------------|-----------------------|
