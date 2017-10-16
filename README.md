@@ -63,15 +63,21 @@ In order to conduct the test follow these steps.
 |polyfills.bundle.js.map|253kb                  |
 |styles.bundle.js       |12kb                   |
 |styles.bundle.js.map   |15kb                   |
-|vendor.bundle.js       |2199kb                 |
-|vendor.bundle.js.map   |2748kb                 |
+|vendor.bundle.js       |2,199kb                 |
+|vendor.bundle.js.map   |2,748kb                 |
 
 ### Aurelia
 
 |File                   |size                   |
 |-----------------------|-----------------------|
+|index.html             |1kb                    |
+|main.js                |2,284kb                |
+|styles.css             |3kb                    |
 
 ### React
 
 |File                   |size                   |
 |-----------------------|-----------------------|
+|index.html             |1kb                    |
+|main.js                |2,143kb                |
+|styles.css             |3kb                    |
