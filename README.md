@@ -1,4 +1,4 @@
-# useless-user-results
+# What is this?
 These are the results of the useless user testing. The objective of the test was to compare the performance of Aurelia, Angular 4 and React.
 
 ### [Web Server](https://github.com/JeffreyRiggle/useless-user-gen)
@@ -6,10 +6,22 @@ These are the results of the useless user testing. The objective of the test was
 ### [Angular](https://github.com/JeffreyRiggle/useless-user-angular)
 ### [React](https://github.com/JeffreyRiggle/useless-user-react)
 
-# Conducting the test.
-In order to conduct the test an instance of the useless-user-gen was started on my machine. Once this was started I started a web server hosting either the Aurelia, Angular 4 or React application.
+# Conducting the test
+In order to conduct the test follow these steps.
 
-Once this was done I created 1000 users 3 times, Updated 1000 users 3 times and cleared out the users.
+1. Start the [web server](https://github.com/JeffreyRiggle/useless-user-gen) on a machine.
+2. On the same machine start either the [Angular](https://github.com/JeffreyRiggle/useless-user-angular), [Aurelia](https://github.com/JeffreyRiggle/useless-user-aurelia) or [React](https://github.com/JeffreyRiggle/useless-user-react) web server.
+3. On the same machine navigate to the web site.
+4. Open developer tools.
+5. Start profiling.
+6. Enter 1000 and press create 3 times waiting 2 seconds between each press.
+7. Stop profiling.
+8. Start profiling.
+9. Press update 3 times waiting 2 seconds between each press.
+10. Stop profiling.
+11. Start profiling.
+12. Press Clear.
+13. Stop profiling.
 
 # Results from the test
 
